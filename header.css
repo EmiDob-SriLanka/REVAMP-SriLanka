@@ -1,5 +1,6 @@
 body {
     background: #041030;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 p {
@@ -92,8 +93,18 @@ a:hover {
 }
 
 .middle {
-    color: #041030;
-    background: #F5F3FF;
+    /* color: #041030; */
+    background: #041030;
+}
+
+.middle-content {
+    margin-top: 3rem;
+    padding: 2.5rem;
+    color: #F5F3FF;
+    background-color: rgba(219, 228, 252, 0.3);
+    border-radius: 10px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 
 .partners {
