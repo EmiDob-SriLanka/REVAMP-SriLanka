@@ -1,3 +1,7 @@
+/************************/
+/*      Body Styles     */
+/************************/
+
 body {
     background: #041030;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
@@ -92,8 +96,27 @@ a:hover {
     position: relative;
 }
 
+
+/************************/
+/*    Scrollbar Style   */
+/************************/
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid rgba(219, 228, 252, 1);
+  }
+
+  /* end of scrollbar style */
+  
 .middle {
-    /* color: #041030; */
     background: #041030;
 }
 
@@ -102,21 +125,90 @@ a:hover {
     padding: 2.5rem;
     color: #F5F3FF;
     background-color: rgba(219, 228, 252, 0.3);
-    border-radius: 10px;
+    border-radius: 10px;    
+}
+
+.middle-content p {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
-.partners {
-    background-color: #ffffff;
+/************************/
+/*    Guideline Style   */
+/************************/
+.guidelines {
+    background: #041030;
 }
+
+.guidelines-content {
+    margin-bottom: 12rem;
+    padding: 2.5rem;
+    color: #F5F3FF;
+    background-color: rgba(219, 228, 252, 0.3);
+    border-radius: 10px;    
+}
+
+.guidelines-content p {
+    font-size: 1.125rem;
+    line-height: 2.75rem;
+}
+
+ul {
+  list-style-type: '✽  ';
+}
+
+/************************/
+/*    Timeline Style    */
+/************************/
 
 .timeline {
     --primary: #5361F2;
     background-color: linear-gradient(45deg, #041030 0%, #5361F2 100%);
 }
 
-@media (min-width: 1200px) {
+/* end of timeline styles */
+
+/************************/
+/*     Sponsor LOGOs    */
+/************************/
+.sponsors {
+    margin-top: 12rem;
+    margin-bottom: 25rem;
+}
+
+.sponsors h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.partners {
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.logos-flex {
+    display: flex;
+}
+.partners .image-container{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #F5F3FF;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.logos-flex img{    
+    height: auto;
+    width: 100%;    
+}
+
+/* end of sponsor logos */
+
+
+/* @media (min-width: 1200px) {
     .container {
         width: 1140px;
         max-width: 100%;
@@ -249,14 +341,14 @@ img {
 
 .dropdown:hover>.dropdown-menu {
     display: block;
-}
+} */
 
 .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
 
-.investors .profile-name {
+/* .investors .profile-name {
     font-size: 22px !important;
     text-align: center;
 }
@@ -283,7 +375,7 @@ html {
 .navbar-wrapper nav.navbar ul.navbar-nav li a.nav-link {
     padding-right: 11px !important;
     padding-left: 11px !important;
-}
+} */
 
 /* _______________ ANIMATION */
 .circles {
@@ -428,8 +520,8 @@ html {
 /*     Testimonials     */
 /************************/
 .slider-1 {
-    padding-top: 9rem;
-    padding-bottom: 11rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
     background: url('../images/testimonials-background.jpg') center bottom no-repeat;
     background-size: cover;
 }
@@ -482,6 +574,10 @@ html {
     padding: 0;
 }
 
+.slider-1 .testimonial-text {
+    font-style: italic;
+}
+
 .slider-1 .testimonial-text,
 .slider-1 .testimonial-author {
     color: #ffffff;
@@ -489,19 +585,28 @@ html {
 
 .slider-1 .testimonial-author {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 /********************/
 /*     Prizes    */
 /********************/
 .cards-1 {
+    margin-top: 12rem;
 	padding-top: 3.75rem;
 	padding-bottom: 2.75rem;
 	text-align: center;
-    background-image: url(./images/pattern_large.png);
-    background-repeat: repeat-x;
+    background-image: url(./images/pattern_rotate.png);
+    background-repeat: no-repeat;
 }
 
+.prizes-flex {
+    display: flex;
+}
+
+.prizes .h2-heading {
+    color: #ffffff;
+}
 .winner h5{
     font-size: 2.5rem;
 }
@@ -559,6 +664,9 @@ html {
 .runners-up img:hover {
     width: 80%;
 }
+
+/* end of prizes style */
+
 /******************/
 /*     Footer     */
 /******************/
@@ -791,7 +899,7 @@ a:hover.back-to-top {
 
 .bg-gradient_solid {
     background: var(--primary-gradient);
-    color: #fff;
+    color: #F5F3FF;
     padding: 48px 0;
 }
 
@@ -804,7 +912,7 @@ a:hover.back-to-top {
     content: "";
     position: absolute;
     width: 1px;
-    background-color: white;
+    background-color: #F5F3FF;
     opacity: 0.4;
     top: 0;
     bottom: 0;
@@ -813,12 +921,11 @@ a:hover.back-to-top {
 
 .steps .content p {
     color: #676767;
-    font-size: 16px;
 }
 
 .steps .content h2 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.75rem;
     color: #676767;
 }
 
@@ -830,7 +937,7 @@ a:hover.back-to-top {
 
 .steps-container .content {
     padding: 32px;
-    background-color: white;
+    background-color: #F5F3FF;
     position: relative;
     border-radius: 10px;
     box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
