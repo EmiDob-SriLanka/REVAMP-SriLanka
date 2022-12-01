@@ -17,6 +17,12 @@
     line-height: 2.75rem;
 }
 
+.timeline-header {
+    display: flex;
+    justify-content: center;
+    color: #F5F3FF;
+}
+
 .h-timeline h2 {
     display: flex;
     justify-content: center;
@@ -52,18 +58,62 @@
     height: 88px !important;
 }
 
+.events {
+    width: 906px !important;
+    transform: translateX(42px) !important; 
+    /* cause purple line not fill error */
+}
+
 /************************/
 /*      Body Styles     */
 /************************/
 
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 200;
+    src: local("Segoe UI Light");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 300;
+    src: local("Segoe UI Semilight");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    src: local("Segoe UI Semibold");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 700;
+    src: local("Segoe UI Bold");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Segoe UI Italic");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Segoe UI Bold Italic");
+}
+
 body {
     background: #041030;
-    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    font-family: "Segoe UI";
 }
 
 p {
     color: #ffffff;
-    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    font-family: 'Segoe UI Semibold';
 }
 
 h1 {
@@ -78,6 +128,7 @@ h2 {
     font-size: 2.125rem;
     line-height: 2.625rem;
     letter-spacing: -0.2px;
+    font-family: 'Segoe UI Bold';
 }
 
 h3 {
@@ -188,11 +239,24 @@ body::-webkit-scrollbar-thumb {
     line-height: 1.75rem;
 }
 
+.middle .middle-web{
+    display: flex;
+    justify-content: center;
+    color: #F5F3FF;
+}
+
 /************************/
 /*    Guideline Style   */
 /************************/
 .guidelines {
     background: #041030;
+}
+
+.guidelines .guidelines-header {
+    display: flex;
+    justify-content: center;
+    color: #F5F3FF;
+    margin-bottom: 10px;
 }
 
 .guidelines-content {
@@ -228,7 +292,7 @@ ul {
 /************************/
 .sponsors {
     margin-top: 5rem;
-    margin-bottom: 25rem;
+    margin-bottom: 5rem;
 }
 
 .sponsors h2 {
@@ -603,14 +667,15 @@ html {
     /* middle content mobile view */
     .middle-mobile {
         display: block;
-        text-align: center;        
+        text-align: center;
+        color: #F5F3FF;
     }
 
     .middle-content p {
         font-size: 1rem !important;
     }
 
-    .middle-web {
+    .middle .middle-web{
         display: none;
     }
 
@@ -676,6 +741,11 @@ html {
 
     .middle-content h2 {
         font-size: 2rem;
+    }
+
+    /* timeline mobile view */
+    .timeline-header {
+        margin-top: 3rem;
     }
 }
 
@@ -856,8 +926,9 @@ html {
     padding-top: 3.75rem;
     padding-bottom: 2.75rem;
     text-align: center;
-    background-image: url(./images/pattern_rotate.png);
-    background-repeat: no-repeat;
+    /* background-image: url(./images/pattern_rotate.png);
+    background-repeat: no-repeat; */
+    /* remove winner background image  */
 }
 
 .prizes-flex {
@@ -1193,7 +1264,7 @@ a:hover.back-to-top {
     list-style: none;
     font-size: 1rem;
     font-weight: 800;
-    color:#F5F3FF;
+    color: #F5F3FF;
 }
 
 .navigation ul .first-tag:hover {

@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REVAMP SriLanka</title>
-    <link href="http://liin.lk/assets/imgs/favicon.png" rel="shortcut icon" type="image/png" />
-    <link href="http://liin.lk/assets/css/style.css?v=2.0" rel="stylesheet">
+    <!-- uncomment after add header -->
+    <!-- <link href="http://liin.lk/assets/imgs/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="http://liin.lk/assets/css/style.css?v=2.0" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -23,6 +24,8 @@
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
+    <!-- uncomment or remove after add header -->
+
     <!-- company header need to change with original-->
     <!-- <header class="header clearfix">
         <div class="inner clearfix">
@@ -130,7 +133,7 @@
                         <a class="nav-link page-scroll first-tag" href="#middle">REVAMP SRI LANKA</a>
                     </li>
                 </ul>
-                <ul>                    
+                <ul>
                     <li>
                         <a class="nav-link page-scroll" href="#testimonials">Mentors</a>
                     </li>
@@ -169,13 +172,13 @@
 
     <!-- Middle Content -->
     <div class="container-fluid middle" id="middle">
+        <h2 class="middle-web">REVAMP SRI LANKA</h2>
+        <div class="middle-mobile">
+            <h2>REVAMP </h2>
+            <h2>SRI LANKA</h2>
+        </div>
         <div class="container">
             <div class="middle-content">
-                <h2 class="middle-web">REVAMP SRI LANKA</h2>
-                <div class="middle-mobile">
-                    <h2>REVAMP </h2>
-                    <h2>SRI LANKA</h2>
-                </div>
                 <p>
                     Youth Startup Challenge 1.0 has been created to get outstanding business ideas
                     off
@@ -303,9 +306,11 @@
 
     <!-- Guideline Content -->
     <div class="container-fluid guidelines" id="guidelines">
+        <div class="guidelines-header ">
+            <h2>Guidelines</h2>
+        </div>
         <div class="container">
             <div class="guidelines-content">
-                <h2>Guidelines</h2>
                 <ul>
                     <li>
                         <p>All participants should be undergraduates / HND followers who study or reside in Eastern &
@@ -351,126 +356,131 @@
     </div>
 
     <!-- timeline Web View-->
-    <div class="container h-timeline" id="timeline">
-        <h2>Timeline</h2>
-        <div class="horizontal-timeline" id="example">
-            <div class="events-content">
-                <ol>
-                    <li class="selected"
-                        data-horizontal-timeline='{"date": "16/03/2015", "customDisplay": "Introductory Webinar"}'>
-                        Fill out the team details on the registration form once registration is available. Only
-                        the registered teams will be included to the introductory webinar. <br>
-                        <i class="fas fa-calendar"></i>
-                        <strong>
-                            Deadline: xx/xx/xxxx
-                            <!-- deadline date will go here -->
-                        </strong>
-                        <br>
-                        <a class="btn-solid-lg" href="#your-link">Register Now</a> <br>
-                        <!-- register link will goes here -->
-                        Introductory Webinar will be done by Mr. Suranjith Swaris. He is the Head of Sales &
-                        Marketing of Bluetown Sri Lanka and Former President of Sri Lanka Institute of
-                        Marketing (SLIM).
-                        The webinar will cover an introduction to the Startup Challenge, specific areas of
-                        focus and guidance for the expected Concept Note + Video Clip.
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-laptop" aria-hidden="true"></i> <strong>Zoom Link</strong>
-                        <!-- zoom link will go here -->
+    <div class="container-fluid">
+        <div class="timeline-header">
+            <h2>Timeline</h2>
+        </div>
+        <div class="container h-timeline" id="timeline">
+            <div class="horizontal-timeline" id="example">
+                <div class="events-content">
+                    <ol>
+                        <li class="selected"
+                            data-horizontal-timeline='{"date": "16/03/2015", "customDisplay": "Introductory Webinar"}'>
+                            Fill out the team details on the registration form once registration is available. Only
+                            the registered teams will be included to the introductory webinar. <br> <br>
+                            <i class="fas fa-calendar"></i>
+                            <strong>
+                                Deadline: xx/xx/xxxx
+                                <!-- deadline date will go here -->
+                            </strong>
+                            <br>
+                            <a class="btn-solid-lg" href="#your-link">Register Now</a> <br>
+                            <!-- register link will goes here -->
+                            Introductory Webinar will be done by Mr. Suranjith Swaris. He is the Head of Sales &
+                            Marketing of Bluetown Sri Lanka and Former President of Sri Lanka Institute of
+                            Marketing (SLIM).
+                            The webinar will cover an introduction to the Startup Challenge, specific areas of
+                            focus and guidance for the expected Concept Note + Video Clip.
+                            <br>
+                            <br>                            
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br> <br>
+                            <!-- date will go here -->
+                            <i class="fa fa-laptop" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
+                            <!-- zoom link will go here -->
 
-                    </li>
-                    <li data-horizontal-timeline='{"date": "23/04/2015", "customDisplay": "Submit Concept Note"}'>
-                        The interested contestants with maximum 5 member teams need to submit the
-                        Concept Note + Video Clip for their startups / business ideas following the guidance.
-                        Duly submitted Concept Notes and Videos will be screened by a professional panel. <br>
-                        <i class="fas fa-calendar"></i>
-                        <strong>
-                            Deadline: xx/xx/xxxx
-                            <!-- deadline date will go here -->
-                        </strong>
-                        <br>
-                        <a class="btn-solid-lg" href="#your-link">Submit Concept Note</a> <br>
-                        <!-- submit link will goes here -->
-                    </li>
-                    <li data-horizontal-timeline='{"date": "23/05/2015", "customDisplay": "Mentoring Sessions"}'>
-                        All the whittled-down teams from the 'Concept Note Screening' will be included to
-                        the mentoring sessions relevant to the area of focus. They will provide the necessary
-                        direction to the entrepreneurs to set-up the startup / business idea to a feasible and
-                        scalable level while also providing guidance on 'Business Development Plan’.
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Eastern University</strong> <br>
-                        <!-- location will go here -->
-                        Common Session on Business Plan (Physical) - Mr. Suranjith Swaris
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
-                        <!-- location will go here -->
-                        Energy (Online) - Rizvi Zaheed
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
-                        <!-- location will go here -->
-                        Agriculture (Online) - Rizvi Zaheed
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
-                        <!-- location will go here -->
-                        Tourism (Online) - Dr. Thivanka Pathirana
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
-                        <!-- location will go here -->
-                        Export Oriented Manufacturing (Online) - Suresh de Mel
-                        <br>
-                        <br>
-                        <i class="fas fa-calendar"></i> xx/xx/xxxx <br>
-                        <!-- date will go here -->
-                        <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br>
-                        <!-- location will go here -->
-                        Promote Social Mobility (Online) - Mr. Upul Daranagama
-                        <br>
-                    </li>
-                    <li data-horizontal-timeline='{"date": "23/06/2015", "customDisplay": "Submit Business Plan"}'>
-                        Each team needs to submit the Business Development Plan following the guidance
-                        provided in ‘Common Session on Business Plan’. Those will be screened by a
-                        professional panel. <br>
-                        <i class="fas fa-calendar"></i>
-                        <strong>
-                            Deadline: xx/xx/xxxx
-                            <!-- deadline date will go here -->
-                        </strong>
-                        <br>
+                        </li>
+                        <li data-horizontal-timeline='{"date": "23/04/2015", "customDisplay": "Submit Concept Note"}'>
+                            The interested contestants with maximum 5 member teams need to submit the
+                            Concept Note + Video Clip for their startups / business ideas following the guidance.
+                            Duly submitted Concept Notes and Videos will be screened by a professional panel. <br> <br>
+                            <i class="fas fa-calendar"></i>
+                            <strong>
+                                Deadline: xx/xx/xxxx
+                                <!-- deadline date will go here -->
+                            </strong>
+                            <br>
+                            <a class="btn-solid-lg" href="#your-link">Submit Concept Note</a> <br>
+                            <!-- submit link will goes here -->
+                        </li>
+                        <li data-horizontal-timeline='{"date": "23/05/2015", "customDisplay": "Mentoring Sessions"}'>
+                            All the whittled-down teams from the 'Concept Note Screening' will be included to
+                            the mentoring sessions relevant to the area of focus. They will provide the necessary
+                            direction to the entrepreneurs to set-up the startup / business idea to a feasible and
+                            scalable level while also providing guidance on 'Business Development Plan’.
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Eastern University</strong> <br><br>
+                            <!-- location will go here -->
+                            Common Session on Business Plan (Physical) - Mr. Suranjith Swaris
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br><br>
+                            <!-- location will go here -->
+                            Energy (Online) - Rizvi Zaheed
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br><br>
+                            <!-- location will go here -->
+                            Agriculture (Online) - Rizvi Zaheed
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br><br>
+                            <!-- location will go here -->
+                            Tourism (Online) - Dr. Thivanka Pathirana
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br><br>
+                            <!-- location will go here -->
+                            Export Oriented Manufacturing (Online) - Suresh de Mel
+                            <br>
+                            <br>
+                            <i class="fas fa-calendar"></i> xx/xx/xxxx <br><br>
+                            <!-- date will go here -->
+                            <i class="fa fa-globe" aria-hidden="true"></i> <strong>Zoom Link</strong> <br><br>
+                            <!-- location will go here -->
+                            Promote Social Mobility (Online) - Mr. Upul Daranagama
+                            <br>
+                        </li>
+                        <li data-horizontal-timeline='{"date": "23/06/2015", "customDisplay": "Submit Business Plan"}'>
+                            Each team needs to submit the Business Development Plan following the guidance
+                            provided in ‘Common Session on Business Plan’. Those will be screened by a
+                            professional panel. <br> <br>
+                            <i class="fas fa-calendar"></i>
+                            <strong>
+                                Deadline: xx/xx/xxxx
+                                <!-- deadline date will go here -->
+                            </strong>
+                            <br>
 
-                        <a class="btn-solid-lg" href="#your-link">Submit Business Development Plan</a> <br>
-                        <!-- submit link will goes here -->
-                    </li>
-                    <li data-horizontal-timeline='{"date": "23/07/2015", "customDisplay": "Grand Finale"}'>
-                        <div>
-                            All the teams who submitted 'Business Development Plan' successfully will be
-                            given the opportunity to enter the final platform of the <strong>REVAMP SRI LANKA.</strong>
-                            <br> <br>
-                            The contestants will be given 5-7 minutes to pitch their startup or business idea
-                            before a panel of industry giants. <br> <br>
-                            The audience consists of undergraduates will be given the opportunity to vote
-                            real-time for the contestants. <br> <br>
-                            At the end, the cash prizes will be there for winner, 1st runner-up, 2nd runner up
-                            which were selected by the judge panel.
-                        </div>
-                    </li>
-                </ol>
+                            <a class="btn-solid-lg" href="#your-link">Submit Business Development Plan</a> <br>
+                            <!-- submit link will goes here -->
+                        </li>
+                        <li data-horizontal-timeline='{"date": "23/07/2015", "customDisplay": "Grand Finale"}'>
+                            <div>
+                                All the teams who submitted 'Business Development Plan' successfully will be
+                                given the opportunity to enter the final platform of the <strong>REVAMP SRI
+                                    LANKA.</strong>
+                                <br> <br>
+                                The contestants will be given 5-7 minutes to pitch their startup or business idea
+                                before a panel of industry giants. <br> <br>
+                                The audience consists of undergraduates will be given the opportunity to vote
+                                real-time for the contestants. <br> <br>
+                                At the end, the cash prizes will be there for winner, 1st runner-up, 2nd runner up
+                                which were selected by the judge panel.
+                            </div>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -488,7 +498,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-5">
                     <div class="tabs-container">
-                        <h2>Timeline</h2>
+                        
                         <!-- Tabs Links -->
                         <ul class="nav nav-tabs" id="revoTabs" role="tablist">
                             <li class="nav-item">
@@ -652,15 +662,18 @@
                                                 LANKA.</strong>
                                         </li>
                                         <li>
-                                            The contestants will be given 5-7 minutes to pitch their startup or business idea
-                                    before a panel of industry giants.
+                                            The contestants will be given 5-7 minutes to pitch their startup or business
+                                            idea
+                                            before a panel of industry giants.
                                         </li>
                                         <li>
-                                            The audience consists of undergraduates will be given the opportunity to vote
+                                            The audience consists of undergraduates will be given the opportunity to
+                                            vote
                                             real-time for the contestants.
                                         </li>
                                         <li>
-                                            At the end, the cash prizes will be there for winner, 1st runner-up, 2nd runner up
+                                            At the end, the cash prizes will be there for winner, 1st runner-up, 2nd
+                                            runner up
                                             which were selected by the judge panel.
                                         </li>
                                     </ul>
@@ -683,7 +696,7 @@
 
     <!-- prizes -->
     <div id="prizes" class="cards-1 bg-dark-blue prizes" id="prizes">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Winners will get</h2>
