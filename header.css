@@ -754,8 +754,15 @@ html {
 /************************/
 /*     Testimonials     */
 /************************/
+.testimonial-heading {
+    display: flex;
+    justify-content: center;
+    color: #F5F3FF;
+    margin-top: 5rem;
+}
+
 .slider-1 {
-    padding-top: 12rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
     background: url('../images/testimonials-background.jpg') center bottom no-repeat;
     background-size: cover;
