@@ -2,7 +2,7 @@
 /*    Timeline OverRide */
 /************************/
 .horizontal-timeline .events-content li {
-    background: rgba(219, 228, 252, 0.3) !important;
+    background: rgba(219, 228, 252, 0.1) !important;
     font-size: 1.0rem !important;
     line-height: normal !important;
     list-style: none;
@@ -10,7 +10,7 @@
 
 .h-timeline {
     color: #ffffff;
-    background-color: rgba(219, 228, 252, 0.3);
+    background-color: rgba(219, 228, 252, 0.1);
     border-radius: 1rem;
     padding: 3rem;
     font-size: 1.125rem;
@@ -56,12 +56,6 @@
 
 .horizontal-timeline .events-wrapper {
     height: 88px !important;
-}
-
-.events {
-    width: 906px !important;
-    transform: translateX(42px) !important; 
-    /* cause purple line not fill error */
 }
 
 /************************/
@@ -194,7 +188,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 3rem;
     padding: 2.5rem;
     color: #F5F3FF;
-    background-color: rgba(219, 228, 252, 0.3);
+    background-color: rgba(219, 228, 252, 0.1);
     border-radius: 10px;
 }
 
@@ -227,7 +221,7 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 8rem;
     padding: 2.5rem;
     color: #F5F3FF;
-    background-color: rgba(219, 228, 252, 0.3);
+    background-color: rgba(219, 228, 252, 0.1);
     border-radius: 10px;
 }
 
@@ -255,7 +249,6 @@ ul {
 /*     Sponsor LOGOs    */
 /************************/
 .sponsors {
-    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -263,6 +256,15 @@ ul {
     color: #ffffff;
     display: flex;
     justify-content: center;
+}
+
+.sponsors-card {
+    text-align: center;
+}
+
+.sponsors-card h3 {
+    font-size: 1.0rem;
+    color: rgba(219, 228, 252, 0.5);
 }
 
 .partners {
@@ -606,6 +608,10 @@ html {
         display: none;
     }
 
+    .partners .image-container {
+        min-height: 15rem;
+    }
+
 }
 
 @media (max-width: 640px) {
@@ -727,7 +733,7 @@ html {
 
 .slider-1 {
     padding-top: 8rem;
-    padding-bottom: 12rem;
+    padding-bottom: 8rem;
     background: url('../images/testimonials-background.jpg') center bottom no-repeat;
     background-size: cover;
 }
@@ -819,7 +825,7 @@ html {
     padding: 1rem 1.375rem;
     border: none;
     border-radius: 10px;
-    background-color: rgba(219, 228, 252, 0.3);
+    background-color: rgba(219, 228, 252, 0.1);
     color: #dadfe2;
     font-weight: 600;
     font-size: 0.75rem;
@@ -883,7 +889,7 @@ html {
 }
 
 .tab-content {
-    background-color: rgba(219, 228, 252, 0.3);
+    background-color: rgba(219, 228, 252, 0.1);
     border-radius: 1rem;
     padding: 20px;
     color: #F5F3FF;
