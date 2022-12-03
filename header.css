@@ -1023,7 +1023,7 @@ html {
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: #3dcac8;
+    color: #212529;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -1091,13 +1091,13 @@ a.back-to-top {
     width: 42px;
     height: 42px;
     border-radius: 30px;
-    background: #3dcac8 url("./images/up-arrow.png") no-repeat center 47%;
+    background: #212529 url("./images/up-arrow.png") no-repeat center 47%;
     background-size: 18px 18px;
     text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-    background-color: #249492;
+    background-color: #212529;
 }
 
 /* Min-width 992px */
