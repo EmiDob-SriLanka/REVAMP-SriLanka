@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REVAMP SriLanka</title>
     <!-- uncomment after add header -->
-    <link href="./images/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="../images/favicon.png" rel="shortcut icon" type="image/png" />
     <!-- <link href="http://liin.lk/assets/css/style.css?v=2.0" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="./header.css" rel="stylesheet">
+    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/swiper.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/fontawesome-all.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/header.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/ycodetech/horizontal-timeline-2.0@2/css/horizontal_timeline.2.0.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -53,7 +53,7 @@
             <div class="navigation">
                 <ul>
                     <li>
-                        <a href="https://liin.lk/"> <img src="./images/linnLogo.png" alt="Revamp LOGO" width="50%"></a>
+                        <a href="https://liin.lk/"> <img src="{{ asset('/images/linnLogo.png') }}" alt="Revamp LOGO" width="50%"></a>
                     </li>
                 </ul>
                 <ul>
@@ -83,10 +83,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="./images/Logo.png" class="title-desktop " alt="" style="width: 100%; margin-top: 20%;">
+                    <img src="{{ asset('/images/Logo.png') }}" class="title-desktop " alt="" style="width: 100%; margin-top: 20%;">
                     <div class="title-mobile">
-                        <img class="image-top" src="./images/Logo_mobile_top.png" alt="">
-                        <img class="image-bottom" src="./images/Logo_mobile_bottom.png" alt="">
+                        <img class="image-top" src="{{ asset('/images/Logo_mobile_top.png') }}" alt="">
+                        <img class="image-bottom" src="{{ asset('/images/Logo_mobile_bottom.png') }}" alt="">
                     </div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -139,7 +139,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Suranjith-Swaris.jpeg"
+                                            <img class="card-image" src="{{ asset('/images/Suranjith-Swaris.jpeg') }}"
                                                 alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Mr. Suranjith Swaris</p>
@@ -154,7 +154,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Dr.-Nirmal-De-Silva.jpeg"
+                                            <img class="card-image" src="{{ asset('/images/Dr.-Nirmal-De-Silva.jpeg') }}"
                                                 alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Dr. Nirmal de Silva</p>
@@ -170,7 +170,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Rizvi-Zaheed.jpeg" alt="alternative">
+                                            <img class="card-image" src="{{ asset('/images/Rizvi-Zaheed.jpeg') }}" alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Mr. Rizvi Zaheed</p>
                                                 <p class="testimonial-text">Director Vidullanka PLC <br>
@@ -183,7 +183,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Thivanka-Pathirana.jpg"
+                                            <img class="card-image" src="{{ asset('/images/Thivanka-Pathirana.jpg') }}"
                                                 alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Dr. Thivanka Pathirana</p>
@@ -199,7 +199,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Suresh-de-Mel.jpg" alt="alternative">
+                                            <img class="card-image" src="{{ asset('/images/Suresh-de-Mel.jpg') }}" alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Mr. Suresh de Mel</p>
                                                 <p class="testimonial-text">Chairman and Chief Executive <br> Sri Lanka
@@ -213,7 +213,7 @@
                                     <!-- Slide -->
                                     <div class="swiper-slide">
                                         <div class="card">
-                                            <img class="card-image" src="images/Mr.-Upul-Dharanagama.jpg"
+                                            <img class="card-image" src="{{ asset('/images/Mr.-Upul-Dharanagama.jpg') }}"
                                                 alt="alternative">
                                             <div class="card-body">
                                                 <p class="testimonial-author">Mr. Upul Daranagama</p>
@@ -654,7 +654,7 @@
                     <!-- Card -->
                     <div class="card runners-up">
                         <div class="card-image">
-                            <img src="./images/secondPlace.png" alt="" width="70%">
+                            <img src="{{ asset('/images/secondPlace.png') }}" alt="" width="70%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">1st Runner Up</h5>
@@ -666,7 +666,7 @@
                     <!-- Card -->
                     <div class="card winner">
                         <div class="card-image">
-                            <img src="./images/firstPlace.png" alt="" width="100%">
+                            <img src="{{ asset('/images/firstPlace.png') }}" alt="" width="100%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Winner</h5>
@@ -678,7 +678,7 @@
                     <!-- Card -->
                     <div class="card runners-up">
                         <div class="card-image">
-                            <img src="./images/thirdPlace.png" alt="" width="70%">
+                            <img src="{{ asset('/images/thirdPlace.png') }}" alt="" width="70%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">2nd Runner Up </h5>
@@ -697,7 +697,7 @@
                     <!-- Card -->
                     <div class="card winner">
                         <div class="card-image">
-                            <img src="./images/firstPlace.png" alt="" width="100%">
+                            <img src="{{ asset('/images/firstPlace.png') }}" alt="" width="100%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Winner</h5>
@@ -709,7 +709,7 @@
                     <!-- Card -->
                     <div class="card runners-up">
                         <div class="card-image">
-                            <img src="./images/secondPlace.png" alt="" width="70%">
+                            <img src="{{ asset('/images/secondPlace.png') }}" alt="" width="70%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">1st Runner Up</h5>
@@ -721,7 +721,7 @@
                     <!-- Card -->
                     <div class="card runners-up">
                         <div class="card-image">
-                            <img src="./images/thirdPlace.png" alt="" width="70%">
+                            <img src="{{ asset('/images/thirdPlace.png') }}" alt="" width="70%">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">2nd Runner Up </h5>
@@ -744,19 +744,19 @@
             <div class="logos-flex partners">
                 <div class="sponsors-card">
                     <div class="image-container">
-                        <img src="./images/GAC_logo.png" alt="World University Service of Canada">
+                        <img src="{{ asset('/images/GAC_logo.png') }}" alt="World University Service of Canada">
                     </div>
                     <h3>Global Affairs Canada</h3> <!-- sponsor name -->
                 </div>
                 <div class="sponsors-card">
                     <div class="image-container">
-                        <img src="./images/WUSC-Logo-Horizontal.png" alt="World University Service of Canada">
+                        <img src="{{ asset('/images/WUSC-Logo-Horizontal.png') }}" alt="World University Service of Canada">
                     </div>
                     <h3>World University Service of Canada</h3> <!-- sponsor name -->
                 </div>
                 <div class="sponsors-card">
                     <div class="image-container">
-                        <img src="./images/EasternUniversity.png" alt="Eastern University">
+                        <img src="{{ asset('/images/EasternUniversity.png') }}" alt="Eastern University">
                     </div>
                     <h3>Eastern University, Sri Lanka</h3> <!-- sponsor name -->
                 </div>
@@ -835,12 +835,12 @@
     <!-- end of copyright -->
 
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="../js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="../js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="../js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="../js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 
 </html>
