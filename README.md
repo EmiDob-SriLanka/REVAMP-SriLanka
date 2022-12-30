@@ -24,3 +24,8 @@ Distributed under the Aparche 2.0
 
 ## Tempory Host Link
 https://emidob-srilanka.github.io/REVAMP-SriLanka/
+
+## Permenent Hosted Link
+https://www.liin.lk/revamp/
+
+![Screenshot from 2022-12-31 02-30-27](https://user-images.githubusercontent.com/49731724/210111310-0860482e-de99-451e-9951-bd16af09c6c2.png)
