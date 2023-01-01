@@ -1,3 +1,5 @@
+@extends('site.index') @section('content')
+
 <!DOCTYPE html>
 <html lang="en">
 
